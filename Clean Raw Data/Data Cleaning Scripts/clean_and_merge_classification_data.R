@@ -4,12 +4,12 @@ library(dplyr)
 library(tidyr)
 library(stringr)
 
-session <- session <- config::get("reporting_month")
-
 #read in new data
 new_class_data <- readxl::read_xlsx("Clean Raw Data/Raw Data/OSG Classifications 2022-08-24.xlsx", trim_ws = TRUE, skip = 1)
 #read in old data 
 previous_class_data <- read.csv("Clean Raw Data/Time Series Data/historic-classification-data.csv") 
+
+session <- session <- config::get("reporting_month")
 
 #clean and reformat new data------------------------------------
 #read in lookup file to match council codes to council names and regions

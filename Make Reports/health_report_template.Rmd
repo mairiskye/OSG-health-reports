@@ -3,7 +3,7 @@ output:
   word_document:
     fig_width: 7.5
     fig_height: 4
-    reference_docx: reference-report.docx
+    reference_docx: style-reference.docx
 params:
   council: "Angus"
   classifications: !r data(mtcars)

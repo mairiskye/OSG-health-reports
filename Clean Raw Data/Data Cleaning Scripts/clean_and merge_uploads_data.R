@@ -5,14 +5,16 @@ library(stringr)
 library(tidyr)
 library(magrittr)
 
+#read in most recent data and clean/standardise format
+new_uploads_raw <- read.csv("Clean Raw Data/Raw Data/OSG Uploads.csv", skip = 3)
+
 session <- config::get("reporting_month")
 
 #read in council/region look-up file
 region_lookup <- read.csv("Clean Raw Data/CodeLookUp.csv") %>%
   select(CouncilName, Region)
 
-#read in most recent data and clean/standardise format
-new_uploads_raw <- read.csv("Clean Raw Data/Raw Data/OSG Uploads.csv", skip = 3)
+
 names(new_uploads_raw)[1] <- "CouncilName"
 new_uploads_clean <- new_uploads_raw %>%
   mutate(Date = session,

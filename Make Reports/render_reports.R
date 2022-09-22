@@ -1,3 +1,5 @@
+library(rmarkdown)
+
 #read reporting month date (ISO formatted String) from config.yml
 session <- config::get("reporting_month")
 
@@ -27,7 +29,7 @@ source("Make Reports/Plotting Functions/error/errors_region_summary_barplot.R")
 council <- "Midlothian"
 
   rmarkdown::render(
-    "Make Reports/data_report_template.Rmd", 
+    "Make Reports/health_report_template.Rmd", 
     params = list(
       council = council,
       classifications = class_data,
