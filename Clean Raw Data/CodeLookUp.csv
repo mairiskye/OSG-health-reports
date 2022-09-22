@@ -1,0 +1,34 @@
+LA,AltName,CouncilName,Region
+9051,CITY OF ABERDEEN,Aberdeen City,North
+9052,ABERDEENSHIRE,Aberdeenshire,North
+9053,ANGUS,Angus,Tayforth
+9054,ARGYLL AND BUTE,Argyll and Bute,West
+9064,CITY OF EDINBURGH,City of Edinburgh,South East
+9056,CLACKMANNAN,Clackmannanshire,Tayforth
+9058,DUMFRIES AND GALLOWAY,Dumfries and Galloway,South West
+9059,CITY OF DUNDEE,Dundee City,Tayforth
+9060,EAST AYRSHIRE,East Ayrshire,South West
+9061,EAST DUNBARTONSHIRE,East Dunbartonshire,South West
+9062,EAST LOTHIAN,East Lothian,South East
+9063,EAST RENFREWSHIRE,East Renfrewshire,West
+9020,WESTERN ISLES,Eilean Siar,North
+9065,FALKIRK,Falkirk,Tayforth
+9066,FIFE,Fife,Tayforth
+9067,CITY OF GLASGOW,Glasgow City,West
+9068,HIGHLAND,Highland,North
+9069,INVERCLYDE,Inverclyde,West
+9070,MIDLOTHIAN,Midlothian,South East
+9071,MORAY,Moray,North
+9072,NORTH AYRSHIRE,North Ayrshire,South West
+9073,NORTH LANARKSHIRE,North Lanarkshire,South West
+9000,ORKNEY ISLANDS,Orkney,North
+9074,PERTH AND KINROSS,Perth and Kinross,Tayforth
+9075,RENFREWSHIRE,Renfrewshire,West
+9055,SCOTTISH BORDERS,Scottish Borders,South East
+9010,SHETLAND ISLANDS,Shetland,North
+9076,SOUTH AYRSHIRE,South Ayrshire,South West
+9077,SOUTH LANARKSHIRE,South Lanarkshire,South West
+9078,STIRLING,Stirling,Tayforth
+9057,WEST DUNBARTONSHIRE,West Dunbartonshire,West
+9079,WEST LOTHIAN,West Lothian,South East
+Scotland,Scotland,Scotland,Scotland

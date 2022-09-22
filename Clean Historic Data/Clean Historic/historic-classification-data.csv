@@ -1,0 +1,491 @@
+"CouncilName","Region","Date","Measure","Value","DateName","RegionAvg"
+"Aberdeen City","North",2022-01-01,"primary",0.4,"Jan-22",8.3
+"Aberdeen City","North",2022-01-01,"secondary",8.7,"Jan-22",14.1
+"Aberdeen City","North",2022-01-01,"tertiary",90.9,"Jan-22",77.6
+"Aberdeenshire","North",2022-01-01,"primary",15.8,"Jan-22",8.3
+"Aberdeenshire","North",2022-01-01,"secondary",7.5,"Jan-22",14.1
+"Aberdeenshire","North",2022-01-01,"tertiary",76.6,"Jan-22",77.6
+"Angus","Tayforth",2022-01-01,"primary",3.4,"Jan-22",3.1
+"Angus","Tayforth",2022-01-01,"secondary",30,"Jan-22",19
+"Angus","Tayforth",2022-01-01,"tertiary",66.6,"Jan-22",78
+"Argyll and Bute","West",2022-01-01,"primary",1.1,"Jan-22",1.4
+"Argyll and Bute","West",2022-01-01,"secondary",7.6,"Jan-22",17.4
+"Argyll and Bute","West",2022-01-01,"tertiary",91.3,"Jan-22",81.4
+"City of Edinburgh","South East",2022-01-01,"primary",5.6,"Jan-22",7.8
+"City of Edinburgh","South East",2022-01-01,"secondary",78.1,"Jan-22",34.7
+"City of Edinburgh","South East",2022-01-01,"tertiary",16.2,"Jan-22",57.5
+"Clackmannanshire","Tayforth",2022-01-01,"primary",0,"Jan-22",3.1
+"Clackmannanshire","Tayforth",2022-01-01,"secondary",9.6,"Jan-22",19
+"Clackmannanshire","Tayforth",2022-01-01,"tertiary",90.4,"Jan-22",78
+"Dumfries and Galloway","South West",2022-01-01,"primary",1.8,"Jan-22",3.7
+"Dumfries and Galloway","South West",2022-01-01,"secondary",16.8,"Jan-22",13.1
+"Dumfries and Galloway","South West",2022-01-01,"tertiary",81.3,"Jan-22",83.2
+"Dundee City","Tayforth",2022-01-01,"primary",0.7,"Jan-22",3.1
+"Dundee City","Tayforth",2022-01-01,"secondary",7.8,"Jan-22",19
+"Dundee City","Tayforth",2022-01-01,"tertiary",91.5,"Jan-22",78
+"East Ayrshire","South West",2022-01-01,"primary",2.2,"Jan-22",3.7
+"East Ayrshire","South West",2022-01-01,"secondary",7,"Jan-22",13.1
+"East Ayrshire","South West",2022-01-01,"tertiary",90.8,"Jan-22",83.2
+"East Dunbartonshire","South West",2022-01-01,"primary",2.9,"Jan-22",3.7
+"East Dunbartonshire","South West",2022-01-01,"secondary",4.9,"Jan-22",13.1
+"East Dunbartonshire","South West",2022-01-01,"tertiary",92.2,"Jan-22",83.2
+"East Lothian","South East",2022-01-01,"primary",4.1,"Jan-22",7.8
+"East Lothian","South East",2022-01-01,"secondary",30.9,"Jan-22",34.7
+"East Lothian","South East",2022-01-01,"tertiary",65.1,"Jan-22",57.5
+"East Renfrewshire","West",2022-01-01,"primary",0.6,"Jan-22",1.4
+"East Renfrewshire","West",2022-01-01,"secondary",5.5,"Jan-22",17.4
+"East Renfrewshire","West",2022-01-01,"tertiary",93.9,"Jan-22",81.4
+"Eilean Siar","North",2022-01-01,"primary",10.4,"Jan-22",8.3
+"Eilean Siar","North",2022-01-01,"secondary",12.8,"Jan-22",14.1
+"Eilean Siar","North",2022-01-01,"tertiary",76.8,"Jan-22",77.6
+"Falkirk","Tayforth",2022-01-01,"primary",8.6,"Jan-22",3.1
+"Falkirk","Tayforth",2022-01-01,"secondary",30.3,"Jan-22",19
+"Falkirk","Tayforth",2022-01-01,"tertiary",61,"Jan-22",78
+"Fife","Tayforth",2022-01-01,"primary",3.1,"Jan-22",3.1
+"Fife","Tayforth",2022-01-01,"secondary",41,"Jan-22",19
+"Fife","Tayforth",2022-01-01,"tertiary",55.9,"Jan-22",78
+"Glasgow City","West",2022-01-01,"primary",3.8,"Jan-22",1.4
+"Glasgow City","West",2022-01-01,"secondary",9.3,"Jan-22",17.4
+"Glasgow City","West",2022-01-01,"tertiary",86.9,"Jan-22",81.4
+"Highland","North",2022-01-01,"primary",24.9,"Jan-22",8.3
+"Highland","North",2022-01-01,"secondary",8.4,"Jan-22",14.1
+"Highland","North",2022-01-01,"tertiary",66.7,"Jan-22",77.6
+"Inverclyde","West",2022-01-01,"primary",0.8,"Jan-22",1.4
+"Inverclyde","West",2022-01-01,"secondary",16.9,"Jan-22",17.4
+"Inverclyde","West",2022-01-01,"tertiary",82.3,"Jan-22",81.4
+"Midlothian","South East",2022-01-01,"primary",3.8,"Jan-22",7.8
+"Midlothian","South East",2022-01-01,"secondary",27.6,"Jan-22",34.7
+"Midlothian","South East",2022-01-01,"tertiary",68.7,"Jan-22",57.5
+"Moray","North",2022-01-01,"primary",5.4,"Jan-22",8.3
+"Moray","North",2022-01-01,"secondary",5.9,"Jan-22",14.1
+"Moray","North",2022-01-01,"tertiary",88.6,"Jan-22",77.6
+"North Ayrshire","South West",2022-01-01,"primary",15.5,"Jan-22",3.7
+"North Ayrshire","South West",2022-01-01,"secondary",5.3,"Jan-22",13.1
+"North Ayrshire","South West",2022-01-01,"tertiary",79.2,"Jan-22",83.2
+"North Lanarkshire","South West",2022-01-01,"primary",0.3,"Jan-22",3.7
+"North Lanarkshire","South West",2022-01-01,"secondary",24.6,"Jan-22",13.1
+"North Lanarkshire","South West",2022-01-01,"tertiary",75.1,"Jan-22",83.2
+"Orkney","North",2022-01-01,"primary",1.2,"Jan-22",8.3
+"Orkney","North",2022-01-01,"secondary",22.1,"Jan-22",14.1
+"Orkney","North",2022-01-01,"tertiary",76.7,"Jan-22",77.6
+"Perth and Kinross","Tayforth",2022-01-01,"primary",1.8,"Jan-22",3.1
+"Perth and Kinross","Tayforth",2022-01-01,"secondary",7.7,"Jan-22",19
+"Perth and Kinross","Tayforth",2022-01-01,"tertiary",90.5,"Jan-22",78
+"Renfrewshire","West",2022-01-01,"secondary",7.4,"Jan-22",17.4
+"Renfrewshire","West",2022-01-01,"tertiary",92.6,"Jan-22",81.4
+"Scottish Borders","South East",2022-01-01,"primary",25.4,"Jan-22",7.8
+"Scottish Borders","South East",2022-01-01,"secondary",24.5,"Jan-22",34.7
+"Scottish Borders","South East",2022-01-01,"tertiary",50.2,"Jan-22",57.5
+"Shetland","North",2022-01-01,"primary",0.2,"Jan-22",8.3
+"Shetland","North",2022-01-01,"secondary",33,"Jan-22",14.1
+"Shetland","North",2022-01-01,"tertiary",66.9,"Jan-22",77.6
+"South Ayrshire","South West",2022-01-01,"primary",2.5,"Jan-22",3.7
+"South Ayrshire","South West",2022-01-01,"secondary",27.9,"Jan-22",13.1
+"South Ayrshire","South West",2022-01-01,"tertiary",69.6,"Jan-22",83.2
+"South Lanarkshire","South West",2022-01-01,"primary",0.4,"Jan-22",3.7
+"South Lanarkshire","South West",2022-01-01,"secondary",5.2,"Jan-22",13.1
+"South Lanarkshire","South West",2022-01-01,"tertiary",94.4,"Jan-22",83.2
+"Stirling","Tayforth",2022-01-01,"primary",3.9,"Jan-22",3.1
+"Stirling","Tayforth",2022-01-01,"secondary",6.3,"Jan-22",19
+"Stirling","Tayforth",2022-01-01,"tertiary",89.8,"Jan-22",78
+"West Dunbartonshire","West",2022-01-01,"primary",0.5,"Jan-22",1.4
+"West Dunbartonshire","West",2022-01-01,"secondary",57.9,"Jan-22",17.4
+"West Dunbartonshire","West",2022-01-01,"tertiary",41.6,"Jan-22",81.4
+"West Lothian","South East",2022-01-01,"primary",0.2,"Jan-22",7.8
+"West Lothian","South East",2022-01-01,"secondary",12.3,"Jan-22",34.7
+"West Lothian","South East",2022-01-01,"tertiary",87.5,"Jan-22",57.5
+"Scotland","Scotland",2022-01-01,"primary",5.4,"Jan-22",5.4
+"Scotland","Scotland",2022-01-01,"secondary",21.9,"Jan-22",21.9
+"Scotland","Scotland",2022-01-01,"tertiary",72.7,"Jan-22",72.7
+"Aberdeen City","North",2021-12-01,"primary",0.4,"Dec-21",8.6
+"Aberdeen City","North",2021-12-01,"secondary",8.7,"Dec-21",14.2
+"Aberdeen City","North",2021-12-01,"tertiary",90.9,"Dec-21",77.2
+"Aberdeenshire","North",2021-12-01,"primary",16,"Dec-21",8.6
+"Aberdeenshire","North",2021-12-01,"secondary",7.6,"Dec-21",14.2
+"Aberdeenshire","North",2021-12-01,"tertiary",76.4,"Dec-21",77.2
+"Angus","Tayforth",2021-12-01,"primary",3.4,"Dec-21",3.1
+"Angus","Tayforth",2021-12-01,"secondary",30,"Dec-21",19.2
+"Angus","Tayforth",2021-12-01,"tertiary",66.6,"Dec-21",77.7
+"Argyll and Bute","West",2021-12-01,"primary",1.1,"Dec-21",1.4
+"Argyll and Bute","West",2021-12-01,"secondary",7.6,"Dec-21",17.4
+"Argyll and Bute","West",2021-12-01,"tertiary",91.3,"Dec-21",81.4
+"City of Edinburgh","South East",2021-12-01,"primary",5.7,"Dec-21",7.8
+"City of Edinburgh","South East",2021-12-01,"secondary",81.3,"Dec-21",35.3
+"City of Edinburgh","South East",2021-12-01,"tertiary",13.1,"Dec-21",56.9
+"Clackmannanshire","Tayforth",2021-12-01,"primary",0.1,"Dec-21",3.1
+"Clackmannanshire","Tayforth",2021-12-01,"secondary",9.7,"Dec-21",19.2
+"Clackmannanshire","Tayforth",2021-12-01,"tertiary",90.3,"Dec-21",77.7
+"Dumfries and Galloway","South West",2021-12-01,"primary",1.8,"Dec-21",4
+"Dumfries and Galloway","South West",2021-12-01,"secondary",16.9,"Dec-21",13.9
+"Dumfries and Galloway","South West",2021-12-01,"tertiary",81.3,"Dec-21",82.1
+"Dundee City","Tayforth",2021-12-01,"primary",0.7,"Dec-21",3.1
+"Dundee City","Tayforth",2021-12-01,"secondary",7.8,"Dec-21",19.2
+"Dundee City","Tayforth",2021-12-01,"tertiary",91.5,"Dec-21",77.7
+"East Ayrshire","South West",2021-12-01,"primary",4.2,"Dec-21",4
+"East Ayrshire","South West",2021-12-01,"secondary",8.2,"Dec-21",13.9
+"East Ayrshire","South West",2021-12-01,"tertiary",87.5,"Dec-21",82.1
+"East Dunbartonshire","South West",2021-12-01,"primary",2.9,"Dec-21",4
+"East Dunbartonshire","South West",2021-12-01,"secondary",4.9,"Dec-21",13.9
+"East Dunbartonshire","South West",2021-12-01,"tertiary",92.2,"Dec-21",82.1
+"East Lothian","South East",2021-12-01,"primary",4.4,"Dec-21",7.8
+"East Lothian","South East",2021-12-01,"secondary",31.1,"Dec-21",35.3
+"East Lothian","South East",2021-12-01,"tertiary",64.5,"Dec-21",56.9
+"East Renfrewshire","West",2021-12-01,"primary",0.6,"Dec-21",1.4
+"East Renfrewshire","West",2021-12-01,"secondary",5.4,"Dec-21",17.4
+"East Renfrewshire","West",2021-12-01,"tertiary",94,"Dec-21",81.4
+"Eilean Siar","North",2021-12-01,"primary",10.5,"Dec-21",8.6
+"Eilean Siar","North",2021-12-01,"secondary",12.8,"Dec-21",14.2
+"Eilean Siar","North",2021-12-01,"tertiary",76.6,"Dec-21",77.2
+"Falkirk","Tayforth",2021-12-01,"primary",8.7,"Dec-21",3.1
+"Falkirk","Tayforth",2021-12-01,"secondary",30.7,"Dec-21",19.2
+"Falkirk","Tayforth",2021-12-01,"tertiary",60.7,"Dec-21",77.7
+"Fife","Tayforth",2021-12-01,"primary",3.1,"Dec-21",3.1
+"Fife","Tayforth",2021-12-01,"secondary",41.1,"Dec-21",19.2
+"Fife","Tayforth",2021-12-01,"tertiary",55.8,"Dec-21",77.7
+"Glasgow City","West",2021-12-01,"primary",3.8,"Dec-21",1.4
+"Glasgow City","West",2021-12-01,"secondary",9.3,"Dec-21",17.4
+"Glasgow City","West",2021-12-01,"tertiary",86.9,"Dec-21",81.4
+"Highland","North",2021-12-01,"primary",25,"Dec-21",8.6
+"Highland","North",2021-12-01,"secondary",8.5,"Dec-21",14.2
+"Highland","North",2021-12-01,"tertiary",66.6,"Dec-21",77.2
+"Inverclyde","West",2021-12-01,"primary",0.8,"Dec-21",1.4
+"Inverclyde","West",2021-12-01,"secondary",17,"Dec-21",17.4
+"Inverclyde","West",2021-12-01,"tertiary",82.2,"Dec-21",81.4
+"Midlothian","South East",2021-12-01,"primary",3.7,"Dec-21",7.8
+"Midlothian","South East",2021-12-01,"secondary",27.7,"Dec-21",35.3
+"Midlothian","South East",2021-12-01,"tertiary",68.5,"Dec-21",56.9
+"Moray","North",2021-12-01,"primary",5.4,"Dec-21",8.6
+"Moray","North",2021-12-01,"secondary",5.9,"Dec-21",14.2
+"Moray","North",2021-12-01,"tertiary",88.7,"Dec-21",77.2
+"North Ayrshire","South West",2021-12-01,"primary",15.6,"Dec-21",4
+"North Ayrshire","South West",2021-12-01,"secondary",5.3,"Dec-21",13.9
+"North Ayrshire","South West",2021-12-01,"tertiary",79.1,"Dec-21",82.1
+"North Lanarkshire","South West",2021-12-01,"primary",0.3,"Dec-21",4
+"North Lanarkshire","South West",2021-12-01,"secondary",28.8,"Dec-21",13.9
+"North Lanarkshire","South West",2021-12-01,"tertiary",70.9,"Dec-21",82.1
+"Orkney","North",2021-12-01,"primary",2.6,"Dec-21",8.6
+"Orkney","North",2021-12-01,"secondary",22.7,"Dec-21",14.2
+"Orkney","North",2021-12-01,"tertiary",74.7,"Dec-21",77.2
+"Perth and Kinross","Tayforth",2021-12-01,"primary",1.9,"Dec-21",3.1
+"Perth and Kinross","Tayforth",2021-12-01,"secondary",8.8,"Dec-21",19.2
+"Perth and Kinross","Tayforth",2021-12-01,"tertiary",89.4,"Dec-21",77.7
+"Renfrewshire","West",2021-12-01,"secondary",7.4,"Dec-21",17.4
+"Renfrewshire","West",2021-12-01,"tertiary",92.6,"Dec-21",81.4
+"Scottish Borders","South East",2021-12-01,"primary",24.9,"Dec-21",7.8
+"Scottish Borders","South East",2021-12-01,"secondary",24.2,"Dec-21",35.3
+"Scottish Borders","South East",2021-12-01,"tertiary",51,"Dec-21",56.9
+"Shetland","North",2021-12-01,"primary",0.2,"Dec-21",8.6
+"Shetland","North",2021-12-01,"secondary",33.5,"Dec-21",14.2
+"Shetland","North",2021-12-01,"tertiary",66.3,"Dec-21",77.2
+"South Ayrshire","South West",2021-12-01,"primary",2.5,"Dec-21",4
+"South Ayrshire","South West",2021-12-01,"secondary",27.9,"Dec-21",13.9
+"South Ayrshire","South West",2021-12-01,"tertiary",69.6,"Dec-21",82.1
+"South Lanarkshire","South West",2021-12-01,"primary",0.4,"Dec-21",4
+"South Lanarkshire","South West",2021-12-01,"secondary",5.2,"Dec-21",13.9
+"South Lanarkshire","South West",2021-12-01,"tertiary",94.4,"Dec-21",82.1
+"Stirling","Tayforth",2021-12-01,"primary",3.9,"Dec-21",3.1
+"Stirling","Tayforth",2021-12-01,"secondary",6.3,"Dec-21",19.2
+"Stirling","Tayforth",2021-12-01,"tertiary",89.8,"Dec-21",77.7
+"West Dunbartonshire","West",2021-12-01,"primary",0.5,"Dec-21",1.4
+"West Dunbartonshire","West",2021-12-01,"secondary",57.9,"Dec-21",17.4
+"West Dunbartonshire","West",2021-12-01,"tertiary",41.7,"Dec-21",81.4
+"West Lothian","South East",2021-12-01,"primary",0.2,"Dec-21",7.8
+"West Lothian","South East",2021-12-01,"secondary",12.4,"Dec-21",35.3
+"West Lothian","South East",2021-12-01,"tertiary",87.4,"Dec-21",56.9
+"Scotland","Scotland",2021-12-01,"primary",5.4,"Dec-21",5.4
+"Scotland","Scotland",2021-12-01,"secondary",22.5,"Dec-21",22.5
+"Scotland","Scotland",2021-12-01,"tertiary",72.1,"Dec-21",72.1
+"Aberdeen City","North",2021-05-01,"primary",0.5,"May-21",16.2
+"Aberdeen City","North",2021-05-01,"secondary",9.2,"May-21",30.7
+"Aberdeen City","North",2021-05-01,"tertiary",90.4,"May-21",53
+"Aberdeenshire","North",2021-05-01,"primary",62.3,"May-21",16.2
+"Aberdeenshire","North",2021-05-01,"secondary",8,"May-21",30.7
+"Aberdeenshire","North",2021-05-01,"tertiary",29.6,"May-21",53
+"Angus","Tayforth",2021-05-01,"primary",3.4,"May-21",4.7
+"Angus","Tayforth",2021-05-01,"secondary",30.2,"May-21",38.6
+"Angus","Tayforth",2021-05-01,"tertiary",66.4,"May-21",56.8
+"Argyll and Bute","West",2021-05-01,"primary",1.4,"May-21",4
+"Argyll and Bute","West",2021-05-01,"secondary",8.3,"May-21",17.3
+"Argyll and Bute","West",2021-05-01,"tertiary",90.3,"May-21",79.4
+"City of Edinburgh","South East",2021-05-01,"primary",8.2,"May-21",9.3
+"City of Edinburgh","South East",2021-05-01,"secondary",80.3,"May-21",35.3
+"City of Edinburgh","South East",2021-05-01,"tertiary",11.5,"May-21",55.3
+"Clackmannanshire","Tayforth",2021-05-01,"primary",5.8,"May-21",4.7
+"Clackmannanshire","Tayforth",2021-05-01,"secondary",91,"May-21",38.6
+"Clackmannanshire","Tayforth",2021-05-01,"tertiary",3.2,"May-21",56.8
+"Dumfries and Galloway","South West",2021-05-01,"primary",3.6,"May-21",5.4
+"Dumfries and Galloway","South West",2021-05-01,"secondary",19,"May-21",17.6
+"Dumfries and Galloway","South West",2021-05-01,"tertiary",77.4,"May-21",77
+"Dundee City","Tayforth",2021-05-01,"primary",2,"May-21",4.7
+"Dundee City","Tayforth",2021-05-01,"secondary",7.4,"May-21",38.6
+"Dundee City","Tayforth",2021-05-01,"tertiary",90.7,"May-21",56.8
+"East Ayrshire","South West",2021-05-01,"primary",6.6,"May-21",5.4
+"East Ayrshire","South West",2021-05-01,"secondary",30.6,"May-21",17.6
+"East Ayrshire","South West",2021-05-01,"tertiary",62.7,"May-21",77
+"East Dunbartonshire","South West",2021-05-01,"primary",2.9,"May-21",5.4
+"East Dunbartonshire","South West",2021-05-01,"secondary",4.9,"May-21",17.6
+"East Dunbartonshire","South West",2021-05-01,"tertiary",92.2,"May-21",77
+"East Lothian","South East",2021-05-01,"primary",4.4,"May-21",9.3
+"East Lothian","South East",2021-05-01,"secondary",31.9,"May-21",35.3
+"East Lothian","South East",2021-05-01,"tertiary",63.7,"May-21",55.3
+"East Renfrewshire","West",2021-05-01,"primary",1.1,"May-21",4
+"East Renfrewshire","West",2021-05-01,"secondary",5.5,"May-21",17.3
+"East Renfrewshire","West",2021-05-01,"tertiary",93.5,"May-21",79.4
+"Eilean Siar","North",2021-05-01,"primary",14.8,"May-21",16.2
+"Eilean Siar","North",2021-05-01,"secondary",68.3,"May-21",30.7
+"Eilean Siar","North",2021-05-01,"tertiary",16.9,"May-21",53
+"Falkirk","Tayforth",2021-05-01,"primary",10.1,"May-21",4.7
+"Falkirk","Tayforth",2021-05-01,"secondary",32.2,"May-21",38.6
+"Falkirk","Tayforth",2021-05-01,"tertiary",57.7,"May-21",56.8
+"Fife","Tayforth",2021-05-01,"primary",3.1,"May-21",4.7
+"Fife","Tayforth",2021-05-01,"secondary",93.4,"May-21",38.6
+"Fife","Tayforth",2021-05-01,"tertiary",3.4,"May-21",56.8
+"Glasgow City","West",2021-05-01,"primary",16,"May-21",4
+"Glasgow City","West",2021-05-01,"secondary",8,"May-21",17.3
+"Glasgow City","West",2021-05-01,"tertiary",76.1,"May-21",79.4
+"Highland","North",2021-05-01,"primary",25.9,"May-21",16.2
+"Highland","North",2021-05-01,"secondary",8.8,"May-21",30.7
+"Highland","North",2021-05-01,"tertiary",65.3,"May-21",53
+"Inverclyde","West",2021-05-01,"primary",0.8,"May-21",4
+"Inverclyde","West",2021-05-01,"secondary",17,"May-21",17.3
+"Inverclyde","West",2021-05-01,"tertiary",82.2,"May-21",79.4
+"Midlothian","South East",2021-05-01,"primary",5.8,"May-21",9.3
+"Midlothian","South East",2021-05-01,"secondary",27.7,"May-21",35.3
+"Midlothian","South East",2021-05-01,"tertiary",66.5,"May-21",55.3
+"Moray","North",2021-05-01,"primary",5.7,"May-21",16.2
+"Moray","North",2021-05-01,"secondary",5.8,"May-21",30.7
+"Moray","North",2021-05-01,"tertiary",88.4,"May-21",53
+"North Ayrshire","South West",2021-05-01,"primary",16,"May-21",5.4
+"North Ayrshire","South West",2021-05-01,"secondary",5.4,"May-21",17.6
+"North Ayrshire","South West",2021-05-01,"tertiary",78.7,"May-21",77
+"North Lanarkshire","South West",2021-05-01,"primary",1,"May-21",5.4
+"North Lanarkshire","South West",2021-05-01,"secondary",29.8,"May-21",17.6
+"North Lanarkshire","South West",2021-05-01,"tertiary",69.2,"May-21",77
+"Orkney","North",2021-05-01,"primary",4.1,"May-21",16.2
+"Orkney","North",2021-05-01,"secondary",74.2,"May-21",30.7
+"Orkney","North",2021-05-01,"tertiary",21.7,"May-21",53
+"Perth and Kinross","Tayforth",2021-05-01,"primary",2,"May-21",4.7
+"Perth and Kinross","Tayforth",2021-05-01,"secondary",10.3,"May-21",38.6
+"Perth and Kinross","Tayforth",2021-05-01,"tertiary",87.7,"May-21",56.8
+"Renfrewshire","West",2021-05-01,"secondary",7.5,"May-21",17.3
+"Renfrewshire","West",2021-05-01,"tertiary",92.5,"May-21",79.4
+"Scottish Borders","South East",2021-05-01,"primary",27.9,"May-21",9.3
+"Scottish Borders","South East",2021-05-01,"secondary",23.8,"May-21",35.3
+"Scottish Borders","South East",2021-05-01,"tertiary",48.3,"May-21",55.3
+"Shetland","North",2021-05-01,"primary",0.2,"May-21",16.2
+"Shetland","North",2021-05-01,"secondary",40.8,"May-21",30.7
+"Shetland","North",2021-05-01,"tertiary",59,"May-21",53
+"South Ayrshire","South West",2021-05-01,"primary",2.5,"May-21",5.4
+"South Ayrshire","South West",2021-05-01,"secondary",28.2,"May-21",17.6
+"South Ayrshire","South West",2021-05-01,"tertiary",69.3,"May-21",77
+"South Lanarkshire","South West",2021-05-01,"primary",5,"May-21",5.4
+"South Lanarkshire","South West",2021-05-01,"secondary",5.2,"May-21",17.6
+"South Lanarkshire","South West",2021-05-01,"tertiary",89.8,"May-21",77
+"Stirling","Tayforth",2021-05-01,"primary",6.2,"May-21",4.7
+"Stirling","Tayforth",2021-05-01,"secondary",5.5,"May-21",38.6
+"Stirling","Tayforth",2021-05-01,"tertiary",88.3,"May-21",56.8
+"West Dunbartonshire","West",2021-05-01,"primary",0.5,"May-21",4
+"West Dunbartonshire","West",2021-05-01,"secondary",57.3,"May-21",17.3
+"West Dunbartonshire","West",2021-05-01,"tertiary",42.1,"May-21",79.4
+"West Lothian","South East",2021-05-01,"primary",0.4,"May-21",9.3
+"West Lothian","South East",2021-05-01,"secondary",13,"May-21",35.3
+"West Lothian","South East",2021-05-01,"tertiary",86.7,"May-21",55.3
+"Scotland","Scotland",2021-05-01,"primary",10.1,"May-21",10.1
+"Scotland","Scotland",2021-05-01,"secondary",27.9,"May-21",27.9
+"Scotland","Scotland",2021-05-01,"tertiary",62,"May-21",62
+"Aberdeen City","North",2020-10-01,"primary",0.8,"Oct-20",16.5
+"Aberdeen City","North",2020-10-01,"secondary",10.8,"Oct-20",31.2
+"Aberdeen City","North",2020-10-01,"tertiary",88.3,"Oct-20",52.3
+"Aberdeenshire","North",2020-10-01,"primary",62.7,"Oct-20",16.5
+"Aberdeenshire","North",2020-10-01,"secondary",8,"Oct-20",31.2
+"Aberdeenshire","North",2020-10-01,"tertiary",29.3,"Oct-20",52.3
+"Angus","Tayforth",2020-10-01,"primary",5,"Oct-20",5
+"Angus","Tayforth",2020-10-01,"secondary",77.2,"Oct-20",45.5
+"Angus","Tayforth",2020-10-01,"tertiary",17.8,"Oct-20",49.5
+"Argyll and Bute","West",2020-10-01,"primary",1.5,"Oct-20",4.1
+"Argyll and Bute","West",2020-10-01,"secondary",8.3,"Oct-20",20.9
+"Argyll and Bute","West",2020-10-01,"tertiary",90.2,"Oct-20",75.8
+"City of Edinburgh","South East",2020-10-01,"primary",8.2,"Oct-20",13.5
+"City of Edinburgh","South East",2020-10-01,"secondary",80.5,"Oct-20",51.2
+"City of Edinburgh","South East",2020-10-01,"tertiary",11.3,"Oct-20",35.3
+"Clackmannanshire","Tayforth",2020-10-01,"primary",5.8,"Oct-20",5
+"Clackmannanshire","Tayforth",2020-10-01,"secondary",91.1,"Oct-20",45.5
+"Clackmannanshire","Tayforth",2020-10-01,"tertiary",3.1,"Oct-20",49.5
+"Dumfries and Galloway","South West",2020-10-01,"primary",5.2,"Oct-20",8.8
+"Dumfries and Galloway","South West",2020-10-01,"secondary",19.1,"Oct-20",31.7
+"Dumfries and Galloway","South West",2020-10-01,"tertiary",75.7,"Oct-20",59.5
+"Dundee City","Tayforth",2020-10-01,"primary",2,"Oct-20",5
+"Dundee City","Tayforth",2020-10-01,"secondary",7.3,"Oct-20",45.5
+"Dundee City","Tayforth",2020-10-01,"tertiary",90.7,"Oct-20",49.5
+"East Ayrshire","South West",2020-10-01,"primary",7,"Oct-20",8.8
+"East Ayrshire","South West",2020-10-01,"secondary",81.7,"Oct-20",31.7
+"East Ayrshire","South West",2020-10-01,"tertiary",11.3,"Oct-20",59.5
+"East Dunbartonshire","South West",2020-10-01,"primary",2.9,"Oct-20",8.8
+"East Dunbartonshire","South West",2020-10-01,"secondary",4.9,"Oct-20",31.7
+"East Dunbartonshire","South West",2020-10-01,"tertiary",92.2,"Oct-20",59.5
+"East Lothian","South East",2020-10-01,"primary",4.9,"Oct-20",13.5
+"East Lothian","South East",2020-10-01,"secondary",32.2,"Oct-20",51.2
+"East Lothian","South East",2020-10-01,"tertiary",62.8,"Oct-20",35.3
+"East Renfrewshire","West",2020-10-01,"primary",1.1,"Oct-20",4.1
+"East Renfrewshire","West",2020-10-01,"secondary",5.5,"Oct-20",20.9
+"East Renfrewshire","West",2020-10-01,"tertiary",93.5,"Oct-20",75.8
+"Eilean Siar","North",2020-10-01,"primary",14.9,"Oct-20",16.5
+"Eilean Siar","North",2020-10-01,"secondary",68.8,"Oct-20",31.2
+"Eilean Siar","North",2020-10-01,"tertiary",16.3,"Oct-20",52.3
+"Falkirk","Tayforth",2020-10-01,"primary",10.2,"Oct-20",5
+"Falkirk","Tayforth",2020-10-01,"secondary",32.3,"Oct-20",45.5
+"Falkirk","Tayforth",2020-10-01,"tertiary",57.5,"Oct-20",49.5
+"Fife","Tayforth",2020-10-01,"primary",3.2,"Oct-20",5
+"Fife","Tayforth",2020-10-01,"secondary",93.7,"Oct-20",45.5
+"Fife","Tayforth",2020-10-01,"tertiary",3.1,"Oct-20",49.5
+"Glasgow City","West",2020-10-01,"primary",16.1,"Oct-20",4.1
+"Glasgow City","West",2020-10-01,"secondary",8.1,"Oct-20",20.9
+"Glasgow City","West",2020-10-01,"tertiary",75.8,"Oct-20",75.8
+"Highland","North",2020-10-01,"primary",26.5,"Oct-20",16.5
+"Highland","North",2020-10-01,"secondary",8.8,"Oct-20",31.2
+"Highland","North",2020-10-01,"tertiary",64.7,"Oct-20",52.3
+"Inverclyde","West",2020-10-01,"primary",1.2,"Oct-20",4.1
+"Inverclyde","West",2020-10-01,"secondary",38.3,"Oct-20",20.9
+"Inverclyde","West",2020-10-01,"tertiary",60.5,"Oct-20",75.8
+"Midlothian","South East",2020-10-01,"primary",5.8,"Oct-20",13.5
+"Midlothian","South East",2020-10-01,"secondary",84.2,"Oct-20",51.2
+"Midlothian","South East",2020-10-01,"tertiary",9.9,"Oct-20",35.3
+"Moray","North",2020-10-01,"primary",6,"Oct-20",16.5
+"Moray","North",2020-10-01,"secondary",5.9,"Oct-20",31.2
+"Moray","North",2020-10-01,"tertiary",88.1,"Oct-20",52.3
+"North Ayrshire","South West",2020-10-01,"primary",21.6,"Oct-20",8.8
+"North Ayrshire","South West",2020-10-01,"secondary",6,"Oct-20",31.7
+"North Ayrshire","South West",2020-10-01,"tertiary",72.4,"Oct-20",59.5
+"North Lanarkshire","South West",2020-10-01,"primary",1,"Oct-20",8.8
+"North Lanarkshire","South West",2020-10-01,"secondary",30,"Oct-20",31.7
+"North Lanarkshire","South West",2020-10-01,"tertiary",69,"Oct-20",59.5
+"Orkney","North",2020-10-01,"primary",4.1,"Oct-20",16.5
+"Orkney","North",2020-10-01,"secondary",74.4,"Oct-20",31.2
+"Orkney","North",2020-10-01,"tertiary",21.4,"Oct-20",52.3
+"Perth and Kinross","Tayforth",2020-10-01,"primary",2.5,"Oct-20",5
+"Perth and Kinross","Tayforth",2020-10-01,"secondary",11.6,"Oct-20",45.5
+"Perth and Kinross","Tayforth",2020-10-01,"tertiary",85.9,"Oct-20",49.5
+"Renfrewshire","West",2020-10-01,"secondary",7.6,"Oct-20",20.9
+"Renfrewshire","West",2020-10-01,"tertiary",92.4,"Oct-20",75.8
+"Scottish Borders","South East",2020-10-01,"primary",47.3,"Oct-20",13.5
+"Scottish Borders","South East",2020-10-01,"secondary",45.6,"Oct-20",51.2
+"Scottish Borders","South East",2020-10-01,"tertiary",7.1,"Oct-20",35.3
+"Shetland","North",2020-10-01,"primary",0.2,"Oct-20",16.5
+"Shetland","North",2020-10-01,"secondary",41.6,"Oct-20",31.2
+"Shetland","North",2020-10-01,"tertiary",58.2,"Oct-20",52.3
+"South Ayrshire","South West",2020-10-01,"primary",5.1,"Oct-20",8.8
+"South Ayrshire","South West",2020-10-01,"secondary",75.7,"Oct-20",31.7
+"South Ayrshire","South West",2020-10-01,"tertiary",19.1,"Oct-20",59.5
+"South Lanarkshire","South West",2020-10-01,"primary",18.5,"Oct-20",8.8
+"South Lanarkshire","South West",2020-10-01,"secondary",4.6,"Oct-20",31.7
+"South Lanarkshire","South West",2020-10-01,"tertiary",77,"Oct-20",59.5
+"Stirling","Tayforth",2020-10-01,"primary",6.2,"Oct-20",5
+"Stirling","Tayforth",2020-10-01,"secondary",5.5,"Oct-20",45.5
+"Stirling","Tayforth",2020-10-01,"tertiary",88.3,"Oct-20",49.5
+"West Dunbartonshire","West",2020-10-01,"primary",0.5,"Oct-20",4.1
+"West Dunbartonshire","West",2020-10-01,"secondary",57.4,"Oct-20",20.9
+"West Dunbartonshire","West",2020-10-01,"tertiary",42.1,"Oct-20",75.8
+"West Lothian","South East",2020-10-01,"primary",1.3,"Oct-20",13.5
+"West Lothian","South East",2020-10-01,"secondary",13.4,"Oct-20",51.2
+"West Lothian","South East",2020-10-01,"tertiary",85.3,"Oct-20",35.3
+"Scotland","Scotland",2020-10-01,"primary",11.8,"Oct-20",11.8
+"Scotland","Scotland",2020-10-01,"secondary",32.8,"Oct-20",32.8
+"Scotland","Scotland",2020-10-01,"tertiary",55.5,"Oct-20",55.5
+"Aberdeen City","North",2020-06-01,"primary",0.9,"Jun-20",23.2
+"Aberdeen City","North",2020-06-01,"secondary",10.9,"Jun-20",39.1
+"Aberdeen City","North",2020-06-01,"tertiary",88.2,"Jun-20",37.7
+"Aberdeenshire","North",2020-06-01,"primary",63,"Jun-20",23.2
+"Aberdeenshire","North",2020-06-01,"secondary",8.1,"Jun-20",39.1
+"Aberdeenshire","North",2020-06-01,"tertiary",28.9,"Jun-20",37.7
+"Angus","Tayforth",2020-06-01,"primary",5,"Jun-20",5
+"Angus","Tayforth",2020-06-01,"secondary",78.3,"Jun-20",53.7
+"Angus","Tayforth",2020-06-01,"tertiary",16.7,"Jun-20",41.3
+"Argyll and Bute","West",2020-06-01,"primary",1.5,"Jun-20",4.1
+"Argyll and Bute","West",2020-06-01,"secondary",8.3,"Jun-20",21.4
+"Argyll and Bute","West",2020-06-01,"tertiary",90.2,"Jun-20",75.2
+"City of Edinburgh","South East",2020-06-01,"primary",8.3,"Jun-20",13.7
+"City of Edinburgh","South East",2020-06-01,"secondary",80.8,"Jun-20",62.7
+"City of Edinburgh","South East",2020-06-01,"tertiary",10.9,"Jun-20",23.6
+"Clackmannanshire","Tayforth",2020-06-01,"primary",6,"Jun-20",5
+"Clackmannanshire","Tayforth",2020-06-01,"secondary",91.9,"Jun-20",53.7
+"Clackmannanshire","Tayforth",2020-06-01,"tertiary",2.1,"Jun-20",41.3
+"Dumfries and Galloway","South West",2020-06-01,"primary",6.5,"Jun-20",16.2
+"Dumfries and Galloway","South West",2020-06-01,"secondary",68.6,"Jun-20",39
+"Dumfries and Galloway","South West",2020-06-01,"tertiary",24.9,"Jun-20",44.8
+"Dundee City","Tayforth",2020-06-01,"primary",2,"Jun-20",5
+"Dundee City","Tayforth",2020-06-01,"secondary",7.3,"Jun-20",53.7
+"Dundee City","Tayforth",2020-06-01,"tertiary",90.7,"Jun-20",41.3
+"East Ayrshire","South West",2020-06-01,"primary",7.1,"Jun-20",16.2
+"East Ayrshire","South West",2020-06-01,"secondary",82.1,"Jun-20",39
+"East Ayrshire","South West",2020-06-01,"tertiary",10.9,"Jun-20",44.8
+"East Dunbartonshire","South West",2020-06-01,"primary",2.9,"Jun-20",16.2
+"East Dunbartonshire","South West",2020-06-01,"secondary",4.9,"Jun-20",39
+"East Dunbartonshire","South West",2020-06-01,"tertiary",92.2,"Jun-20",44.8
+"East Lothian","South East",2020-06-01,"primary",5.3,"Jun-20",13.7
+"East Lothian","South East",2020-06-01,"secondary",83.9,"Jun-20",62.7
+"East Lothian","South East",2020-06-01,"tertiary",10.8,"Jun-20",23.6
+"East Renfrewshire","West",2020-06-01,"primary",1.1,"Jun-20",4.1
+"East Renfrewshire","West",2020-06-01,"secondary",5.5,"Jun-20",21.4
+"East Renfrewshire","West",2020-06-01,"tertiary",93.4,"Jun-20",75.2
+"Eilean Siar","North",2020-06-01,"primary",15.3,"Jun-20",23.2
+"Eilean Siar","North",2020-06-01,"secondary",71.3,"Jun-20",39.1
+"Eilean Siar","North",2020-06-01,"tertiary",13.4,"Jun-20",37.7
+"Falkirk","Tayforth",2020-06-01,"primary",10.2,"Jun-20",5
+"Falkirk","Tayforth",2020-06-01,"secondary",86.9,"Jun-20",53.7
+"Falkirk","Tayforth",2020-06-01,"tertiary",2.9,"Jun-20",41.3
+"Fife","Tayforth",2020-06-01,"primary",3.2,"Jun-20",5
+"Fife","Tayforth",2020-06-01,"secondary",94,"Jun-20",53.7
+"Fife","Tayforth",2020-06-01,"tertiary",2.8,"Jun-20",41.3
+"Glasgow City","West",2020-06-01,"primary",16.2,"Jun-20",4.1
+"Glasgow City","West",2020-06-01,"secondary",10.7,"Jun-20",21.4
+"Glasgow City","West",2020-06-01,"tertiary",73.1,"Jun-20",75.2
+"Highland","North",2020-06-01,"primary",69.7,"Jun-20",23.2
+"Highland","North",2020-06-01,"secondary",9.7,"Jun-20",39.1
+"Highland","North",2020-06-01,"tertiary",20.7,"Jun-20",37.7
+"Inverclyde","West",2020-06-01,"primary",1.2,"Jun-20",4.1
+"Inverclyde","West",2020-06-01,"secondary",38.4,"Jun-20",21.4
+"Inverclyde","West",2020-06-01,"tertiary",60.4,"Jun-20",75.2
+"Midlothian","South East",2020-06-01,"primary",5.9,"Jun-20",13.7
+"Midlothian","South East",2020-06-01,"secondary",88.5,"Jun-20",62.7
+"Midlothian","South East",2020-06-01,"tertiary",5.6,"Jun-20",23.6
+"Moray","North",2020-06-01,"primary",8.8,"Jun-20",23.2
+"Moray","North",2020-06-01,"secondary",7.5,"Jun-20",39.1
+"Moray","North",2020-06-01,"tertiary",83.7,"Jun-20",37.7
+"North Ayrshire","South West",2020-06-01,"primary",21.8,"Jun-20",16.2
+"North Ayrshire","South West",2020-06-01,"secondary",6.2,"Jun-20",39
+"North Ayrshire","South West",2020-06-01,"tertiary",71.9,"Jun-20",44.8
+"North Lanarkshire","South West",2020-06-01,"primary",1.1,"Jun-20",16.2
+"North Lanarkshire","South West",2020-06-01,"secondary",30,"Jun-20",39
+"North Lanarkshire","South West",2020-06-01,"tertiary",68.9,"Jun-20",44.8
+"Orkney","North",2020-06-01,"primary",4.2,"Jun-20",23.2
+"Orkney","North",2020-06-01,"secondary",75.4,"Jun-20",39.1
+"Orkney","North",2020-06-01,"tertiary",20.4,"Jun-20",37.7
+"Perth and Kinross","Tayforth",2020-06-01,"primary",2.7,"Jun-20",5
+"Perth and Kinross","Tayforth",2020-06-01,"secondary",11.8,"Jun-20",53.7
+"Perth and Kinross","Tayforth",2020-06-01,"tertiary",85.5,"Jun-20",41.3
+"Renfrewshire","West",2020-06-01,"secondary",7.6,"Jun-20",21.4
+"Renfrewshire","West",2020-06-01,"tertiary",92.4,"Jun-20",75.2
+"Scottish Borders","South East",2020-06-01,"primary",47.6,"Jun-20",13.7
+"Scottish Borders","South East",2020-06-01,"secondary",46.5,"Jun-20",62.7
+"Scottish Borders","South East",2020-06-01,"tertiary",5.9,"Jun-20",23.6
+"Shetland","North",2020-06-01,"primary",0.2,"Jun-20",23.2
+"Shetland","North",2020-06-01,"secondary",91,"Jun-20",39.1
+"Shetland","North",2020-06-01,"tertiary",8.8,"Jun-20",37.7
+"South Ayrshire","South West",2020-06-01,"primary",5.6,"Jun-20",16.2
+"South Ayrshire","South West",2020-06-01,"secondary",76.4,"Jun-20",39
+"South Ayrshire","South West",2020-06-01,"tertiary",18,"Jun-20",44.8
+"South Lanarkshire","South West",2020-06-01,"primary",68.3,"Jun-20",16.2
+"South Lanarkshire","South West",2020-06-01,"secondary",4.6,"Jun-20",39
+"South Lanarkshire","South West",2020-06-01,"tertiary",27.1,"Jun-20",44.8
+"Stirling","Tayforth",2020-06-01,"primary",6.2,"Jun-20",5
+"Stirling","Tayforth",2020-06-01,"secondary",5.5,"Jun-20",53.7
+"Stirling","Tayforth",2020-06-01,"tertiary",88.3,"Jun-20",41.3
+"West Dunbartonshire","West",2020-06-01,"primary",0.5,"Jun-20",4.1
+"West Dunbartonshire","West",2020-06-01,"secondary",57.8,"Jun-20",21.4
+"West Dunbartonshire","West",2020-06-01,"tertiary",41.7,"Jun-20",75.2
+"West Lothian","South East",2020-06-01,"primary",1.5,"Jun-20",13.7
+"West Lothian","South East",2020-06-01,"secondary",13.7,"Jun-20",62.7
+"West Lothian","South East",2020-06-01,"tertiary",84.8,"Jun-20",23.6
+"Scotland","Scotland",2020-06-01,"primary",16.6,"Jun-20",16.6
+"Scotland","Scotland",2020-06-01,"secondary",37.4,"Jun-20",37.4
+"Scotland","Scotland",2020-06-01,"tertiary",46,"Jun-20",46

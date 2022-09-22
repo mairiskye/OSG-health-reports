@@ -1,0 +1,130 @@
+---
+output: 
+  word_document:
+    fig_width: 7.5
+    fig_height: 4
+    reference_docx: reference-report.docx
+params:
+  council: "Angus"
+  classifications: !r data(mtcars)
+  errors: !r data(mtcars)
+  paf: !r data(mtcars)
+  uploads: !r data(mtcars)
+  date: "September 2022"
+title: "`r params$council` Gazetteer"
+author: "OSG Performance and Health Check Report"
+date: "`r params$date`"
+---
+
+Avais Ijaz -OSG Custodian
+
+\newpage 
+
+# Data Analysis
+
+## Type A Data Uploads
+Data currency is one of the key components of the Gazetteer due in part to the dependency on the address data by critical consumers such as Scotland’s three emergency services along with eDevelopment & the Energy Savings Trust. With the Ordnance Survey launching more mapping products that derive data from the OSG, multiple loads of local CAG data over the course of a week to the OSG portal have become a minimum requirement. 
+
+**Benefit** – ensures that additions & corrections to gazetteer data are more quickly shared. 
+**Assistance** – The Improvement Service are working with councils to develop and implement the Cloud Connector Framework (CCF) which will enable automatic uploading of Gazetteer data directly to the OSG in an automated manner removing the dependency on local custodians manually processing an extract and uploading to the OSG.
+**Recommendation** – Whilst most councils have now implemented the CCF tool there are still a number of councils yet to deploy. Councils need to ensure resources are adequately deployed to guarantee a timely implementation of the new CCF tool and that regular uploads are maintained during the transitionary phase.
+
+```{r uploads-recent, echo=FALSE, fig.height= 5, fig.width= 8, warning=FALSE, message=FALSE}
+
+uploads_council_group_recent_barplot(params$uploads, params$council)
+```
+
+
+```{r uploads-council, echo=FALSE, warning=FALSE, message=FALSE}
+
+uploads_council_group_barplot(params$uploads, params$council)
+
+```
+
+The above table shows the variation of upload consistency between the councils across the region over various reporting periods.
+
+```{r uploads-regional, echo=FALSE, warning=FALSE, message=FALSE}
+
+uploads_regional_summary_barplot(params$uploads)
+```
+
+The above table clearly shows that multiple uploads over a short period are now the standard with most councils close to supplying on a daily basis.
+
+## Classifications
+**Benefit** – The recent response to the Covid outbreak has highlighted a critical issue with Gazetteers not able to provide a wholly uniform view of the location of critical sites due to incomplete classifications and will be high on the agenda for users such as NHS, Scottish Government and colleagues in Resilience Planning. The coming Census also places a requirement to ensure that property types have a more granular level of detail, with the recent announcement of the postponement of the census to 2021 this gives councils an excellent opportunity to ensure that their data is ready in time.
+**Assistance** – where required the Improvement Service can supply a file to automatically update classifications en masse.
+**Recommendation** – councils to prioritise classification work and implement update to classifications if this is still outstanding.
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+scot_average <- class_data %>% 
+  filter(Measure == "tertiary") %>%
+  group_by(Date, Measure) %>% 
+  summarise(Value = round(mean(Value),0)) %>%
+  arrange(desc(Date)) %>%
+  pull(Value)
+
+last_period <- scot_average[2]
+this_period <- scot_average[1]
+
+```
+
+The overall picture for Scotland is still an upward trajectory with most councils having increased their tertiary level classifications moving Scotland’s average from the previous figure of `r last_period`% to `r this_period`%.
+
+```{r class-single-council, echo=FALSE, fig.height= 5, fig.width= 8, warning=FALSE, message=FALSE}
+
+class_single_council_stacked(params$classifications, params$council)
+```
+
+The table below demonstrates that progress is being made by other regional groups as councils all seek to improve the quality of their property classifications, thereby steadily increasing the overall average of Scotland. 
+
+```{r class-regional, echo=FALSE, fig.height= 5, fig.width= 8, warning=FALSE, message=FALSE}
+
+class_region_summary_barplot(params$classifications)
+```
+
+```{r class-council, echo=FALSE, fig.height= 5, fig.width= 8, warning=FALSE, message=FALSE}
+
+class_council_group_barplot(params$classifications, params$council)
+
+```
+
+## Breakdown by Error type 
+**Benefit** – this will allow councils to focus and plan targeted improvements.
+**Assistance** – the Improvement Service can work in conjunction with custodians to assist and provide guidance where required.
+**Recommendation** – custodians need to ensure that data meets the current validations and keep error levels to within the national average.
+
+Due to recent changes in validations custodians will see a notable shift in overall error numbers & error types.
+
+```{r errors-council, echo=FALSE, fig.height= 5, fig.width= 8, warning=FALSE, message=FALSE}
+
+errors_council_group_barplot(params$errors, params$council)
+```
+
+```{r errors-regional, echo=FALSE, fig.height= 5, fig.width= 8, warning=FALSE, message=FALSE}
+
+errors_region_summary_barplot(params$errors)
+```
+
+## Postal Address File (PAF) Matching
+**Benefit** –Having an accurate match to Royal Mails PAF increases the confidence in the address data and prevents issues with undeliverable mail.
+**Assistance** – The Improvement Service can offer to assist with any outstanding legacy matching.
+**Recommendation** – Each council must ensure that the monthly PAF matches are reviewed and returned to avoid adding to any unmatched legacy data. 
+
+```{r paf-council,echo=FALSE, fig.height= 5, fig.width= 8, warning=FALSE, message=FALSE}
+paf_council_group_barplot(params$paf, params$council)
+```
+
+```{r paf-region,echo=FALSE, fig.height= 5, fig.width= 8, warning=FALSE, message=FALSE}
+paf_region_summary_barplot(params$paf)
+```
+
+# OSG Portal Queries
+Non local authority users of gazetteer data include the Scottish Emergency Services, National Records of Scotland, Scottish Govt and members of the public. The OSG website provides users an online facility to quickly and easy log a query relating to possible address errors, positional inaccuracy & incorrect classifications etc. This is also one of the best ways to get feedback on gazetteer quality via 3rd party users but it’s equally important to ensure that these queries sent from the OSG Helpdesk are answered promptly to ensure trust in gazetteer data is maintained.
+
+All outstanding OSG portal requests are being collated & reported on including those calls logged but have never closed off.
+
+
+## Recommended Remedial Actions 
+Based on the data within the report the following actions are recommended:
+
+
