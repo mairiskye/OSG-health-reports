@@ -49,7 +49,7 @@ plot <- ggplot(region_summary_ordered, aes(fill=Category, y=Value, x=Region)) +
     panel.grid.major.x = element_blank() ,
     panel.grid.major.y = element_line( size=.1, color="gray"),
     panel.grid.minor.y = element_blank(),
-    axis.text.x=element_text(angle = -35, hjust = 0)
+    #axis.text.x=element_text(angle = -35, hjust = 0)
   )
 
 return(plot)

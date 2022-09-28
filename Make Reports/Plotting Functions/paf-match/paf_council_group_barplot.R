@@ -11,7 +11,7 @@ h_intercept <- mean(region_subset$LinkRate) %>% round(., 2)
 abbr_councils <- wrap_it(region_subset$CouncilName, 10)
 
 ggplot(region_subset, aes(y=LinkRate, x = reorder(abbr_councils, -LinkRate), fill = CRITERION_LEVEL)) + 
-  geom_col(width = 0.7, position= position_dodge(0.8)) + 
+  geom_col(width = 0.5, position= position_dodge(0.8)) + 
   scale_fill_manual(values = c("#082A75", "red")) +
   coord_cartesian(ylim=c(97,100)) +
   scale_y_continuous(n.breaks = 5) +
