@@ -21,4 +21,4 @@ clean_paf <- left_join(paf_raw, code_lookup) %>%
   select(-LINK_RATE) %>%
   arrange(CouncilName)
 
-write.csv(paf_named, paste0("Make Reports/Clean Data/paf-", session,".csv"), row.names = FALSE)
+write.csv(clean_paf, paste0("Make Reports/Clean Data/paf-", session,".csv"), row.names = FALSE)

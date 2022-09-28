@@ -4,10 +4,10 @@ library(rmarkdown)
 session <- config::get("reporting_month")
 
 #read in data and create council vector
-uploads_data <- read.csv("Make Reports/Clean Data/uploads-time-series-2022-09-01.csv")
-class_data <- read.csv("Make Reports/Clean Data/classification-time-series-2022-09-01.csv")
-paf_data <- read.csv("Make Reports/Clean Data/paf-2022-09-01.csv")
-errors_data <- read.csv("Make Reports/Clean Data/errors-2022-09-01.csv")
+uploads_data <- read.csv("Make Reports/Clean Data/uploads-time-series-2022-08-01.csv")
+class_data <- read.csv("Make Reports/Clean Data/classification-time-series-2022-08-01.csv")
+paf_data <- read.csv("Make Reports/Clean Data/paf-2022-08-01.csv")
+errors_data <- read.csv("Make Reports/Clean Data/errors-2022-08-01.csv")
 councils <- unique(paf_data$CouncilName)
 
 #read in helper functions
@@ -25,8 +25,7 @@ source("Make Reports/Plotting Functions/paf-match/paf_region_summary_barplot.R")
 source("Make Reports/Plotting Functions/error/errors_council_group_barplot.R")
 source("Make Reports/Plotting Functions/error/errors_region_summary_barplot.R")
 
-#for (council in councils) {
-council <- "Midlothian"
+for (council in councils) {
 
   rmarkdown::render(
     "Make Reports/health_report_template.Rmd", 
@@ -40,4 +39,4 @@ council <- "Midlothian"
       ),
     output_file = paste0("Final Reports/",council, "-osg-health-check-report.docx")
     )
-  #}
+  }

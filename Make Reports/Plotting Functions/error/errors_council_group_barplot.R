@@ -31,22 +31,22 @@ h_intercept_scotland <- data %>%
 plot <- ggplot(region_subset_ordered, aes(fill=Category, y=Value, x=CouncilNamesWrapped)) + 
   #geom_bar(position = position_stack(reverse = TRUE), stat="identity") +
   geom_col(colour = "black", width = 0.5) +
-  #scale_fill_manual(values = colour_blind_friendly) +
-  scale_fill_manual(values = c("#DC267F", "#FE6100", "#FFB000","#648FFF", "#785EF0")) +
+  scale_fill_manual(values = c("#f3a902", "chartreuse3","blue4", "powderblue", "#D55E00")) +
+  #scale_fill_manual(values = c("#DC267F", "#FE6100", "#FFB000","#648FFF", "#785EF0")) +
   scale_y_continuous(labels = comma, n.breaks = 8) +
-  geom_hline(aes(yintercept = h_intercept_scotland, linetype = paste0("Scotland Average")), size =0.7, color = "gray80") +
+  geom_hline(aes(yintercept = h_intercept_scotland, linetype = paste0("Scotland Average")), size =0.7, color = "gray30") +
   #geom_label(aes(6, h_intercept_scotland, label = paste0("Scotland: ",format(h_intercept_scotland, big.mark = ","))),
   #           size = 3,
   #          fill = "white",
   #          colour = "ivory4",
   #           show.legend = FALSE) +
-  geom_hline(aes(yintercept = h_intercept_region, linetype = paste0(region," Average")), size =0.7, color = "gray30") +
+  geom_hline(aes(yintercept = h_intercept_region, linetype = paste0(region," Average")), size =0.7, color = "red") +
   #geom_label(aes(6, h_intercept_region, label = paste0(region,": ",format(h_intercept_region, big.mark = ","))),
    #         fill = "white",
    #         size = 3,
    #         show.legend = FALSE) +
   scale_linetype_manual(name = "", values = c("longdash", "longdash"),
-                        guide = guide_legend(override.aes = list(color = c("gray80", "gray30")))) +
+                        guide = guide_legend(override.aes = list(color = c("gray30", "red")))) +
   #guides(linetype=guide_legend(override.aes=list(colour = c( "ivory4", "black"), linetype = c(2, 1)))) +
   labs(title = paste0(region, " Region - Total Errors"), x = "", y = "Total Errors") + 
   theme(#legend.position = "bottom",
