@@ -4,10 +4,10 @@ library(rmarkdown)
 session <- config::get("reporting_month")
 
 #read in data and create council vector
-uploads_data <- read.csv("Make Reports/Clean Data/uploads-time-series-2022-08-01.csv")
-class_data <- read.csv("Make Reports/Clean Data/classification-time-series-2022-08-01.csv")
-paf_data <- read.csv("Make Reports/Clean Data/paf-2022-08-01.csv")
-errors_data <- read.csv("Make Reports/Clean Data/errors-2022-08-01.csv")
+uploads_data <- read.csv(paste0("Make Reports/Clean Data/uploads-time-series-", session, ".csv"))
+class_data <- read.csv(paste0("Make Reports/Clean Data/classification-time-series-", session, ".csv"))
+paf_data <- read.csv(paste0("Make Reports/Clean Data/paf-", session, ".csv"))
+errors_data <- read.csv(paste0("Make Reports/Clean Data/errors-", session, ".csv"))
 councils <- unique(paf_data$CouncilName)
 
 #read in helper functions
