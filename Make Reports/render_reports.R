@@ -8,6 +8,7 @@ uploads_data <- read.csv(paste0("Make Reports/Clean Data/uploads-time-series-", 
 class_data <- read.csv(paste0("Make Reports/Clean Data/classification-time-series-", session, ".csv"))
 paf_data <- read.csv(paste0("Make Reports/Clean Data/paf-", session, ".csv"))
 errors_data <- read.csv(paste0("Make Reports/Clean Data/errors-", session, ".csv"))
+
 councils <- unique(paf_data$CouncilName)
 
 #read in helper functions
@@ -37,6 +38,6 @@ for (council in councils) {
       errors = errors_data,
       date = format(max(as.Date(session)), "%B %Y")
       ),
-    output_file = paste0("Final Reports/",council, "-osg-health-check-report.docx")
+    output_file = paste0("Aug Reports/",council, "-osg-health-check-report.docx")
     )
   }

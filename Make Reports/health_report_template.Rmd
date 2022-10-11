@@ -43,7 +43,76 @@ title: ""
 
 \newpage 
 
+
 ## Background
+
+The One Scotland Gazetteer (OSG) is an address dataset that comprises data maintained locally by each of Scotland’s 32 local authorities.
+
+
+![](Report Images/region-map.png)
+
+Each local authority submits their gazetteer to the Data & Intelligence team at the Improvement Service where the data is validated and shared with partners either directly or via a 3rd party.
+
+The data is also available via the One Scotland Gazetteer portal which currently receives over 4 million address searches a year. 
+
+
+## Some key achievements:
+
+*	More efficient public services through centralised information source
+*	Access to the most comprehensive and up-to-date addressing dataset in Scotland
+*	Robust change feedback mechanism for user confidence
+*	Access to the status of a property and important dates in its lifecycle
+
+## Examples of OSG customers:
+
+*	Police Scotland, Scottish Ambulance Service, Scottish Fire & Rescue
+*	Scottish Government
+*	Scottish Parliament
+*	NHS Scotland
+*	Audit Scotland
+*	Food Standards Scotland
+*	Various Valuation Boards
+
+# Future Direction
+
+Scotland’s 32 councils are split over various geographies and populations. To facilitate a fairer representation of gazetteers locally & more targeted improvements, Gazetteers are split into the following regional groups and will more closely align with the current groupings of the Roads Gazetteer communities.
+  
+The Health Report will be produced and shared on a regular basis to allow local authorities & the Improvement Service to monitor progress and to help highlight trends and priorities for QA related work, this will also allow the Improvement Service to offer assistance where required.
+
+The analysis is based on data submitted to the OSG portal over a 4 week period between Jan & Feb 2022 so any subsequent changes made to the data will not be detailed here. 
+
+Throughout 2022 the Improvement Service will organize regional meetings to supplement the regular community meetings. It is anticipated that the regional groups will foster closer working with neighbouring authorities, the sharing of best practice and opportunities to streamline internal procedures, this will be further reinforced with regular meeting with individual councils. 
+
+# News Roundup
+
+## Gazetteers are Go!
+
+In line with the UK Governments requirement for use of the UPRN & USRN across the Public Sector, the Improvement Service has worked with the Scottish Government towards enshrining the use of Gazetteer identifiers in the Scottish Public sector. This will help ensure that Gazetteers are not viewed simply as “an address list” but crucial to any organisation that wishes to deliver geographic based services by being able to exploit the vast reams of data that underpin each service area. Although many councils have already achieved a high level of success in terms of promoting use of these key identifiers out with Planning & Building Standards, it is expected that this latest announcement will go a long way to ensuring that UPRNs & USRNs become the bedrock in corporate strategies that see the use of Gazetteer data become one of the key drivers in Public Sector data sharing; Risk Management; Public Health Intelligence; Statistical Reporting; Fraud Prevention. Further news will be released in due course and hope that this is seen a further positive step. 
+\nempage 
+
+## Scottish Census
+
+Scotland’s Census 2022 has been live since the end of February and the NRS Geography team are dealing with a variety of address queries. The final snapshot of addresses was taken in February, based on December 2021 data.  Change between this and the March census date was always expected and many of the queries relate to new developments which have only recently become occupied.  The difference in flat numbering between the CAG’s and Royal Mail PAF has also created issues as there is no clear preference by respondents as to which format they use. Once the live operations are complete a full evaluation of the address data will be undertaken and will be passed to local authorities for review. 
+
+## Ongoing Support
+
+The Improvement Service is committed to helping the Gazetteer community via a multifaceted approach to try and best engage with the various local authorities, recently the Improvement Service has:
+
+* Funded software training
+* Provided free introductory training for both the street & address gazetteer community
+* Engaged at national, regional & individual levels, helped resolve localised technical issues & where requested, prioritise workloads
+* Funded and configured daily supply of all gazetteers to OSG: CCF for IDOX, iExchange for Aligned Assets, and recently had a successful test load from WDM for daily supply moving forward.
+*	Provided GDPR, licensing and legislative guidance
+* Re-instated the Idox GMS user group 
+* Liaised with ICT & IT suppliers to help with integrations 
+* Engaged with national bodies (Public Health Scotland, AGI, Scottish Government)
+* Taken a “hands on” approach with suppliers and worked in tandem with them to resolve issues
+* Provided ad-hoc support & advice 
+
+\newpage
+
+# Data Analysis
+>>>>>>> 6463819e3382aa1c02a4ba654bad42ce9aaa9f9b
 
 The Health Report will be produced and shared on a regular basis to allow local authorities & the Improvement Service to monitor progress and to help highlight trends and priorities for QA related work, this will also allow the Improvement Service to offer assistance where required. 
 
