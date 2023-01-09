@@ -9,7 +9,7 @@ h_intercept <- round(mean(data$LinkRate),1)
 ggplot(region_summary, aes(y=LinkRate, x = reorder(Region, -LinkRate))) + 
   geom_col(width = 0.5, position= position_dodge(0.8), fill = "#082A75") + 
   scale_y_continuous(n.breaks = 5) +
-  coord_cartesian(ylim=c(97,100)) +
+  coord_cartesian(ylim=c(99,100)) +
   geom_hline(aes(yintercept = h_intercept, linetype = "Average of Regions"), size =0.8, color = "darkgray") + 
   scale_linetype_manual(name = "", values = "longdash", 
                         guide = guide_legend(override.aes = list(color = "darkgray"))) +

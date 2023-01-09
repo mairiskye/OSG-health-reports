@@ -3,6 +3,7 @@ output:
   word_document:
     fig_width: 7
     fig_height: 3.5
+    reference_docx: "style-reference.docx"
 urlcolor: blue
 linkcolor: blue
 params:
@@ -18,10 +19,10 @@ title: ""
 
 ![](Report Images/osg-logo.png){width=675px}
 
-# `r params$council` Gazetteer
+#### `r params$council` Gazetteer
 
-## OSG Performance and Health Check Report 6 
-## `r params$date`
+#### OSG Performance and Health Check Report 6 
+### `r params$date`
 
 <br>  
 <br>  
@@ -44,119 +45,48 @@ title: ""
 \newpage 
 
 
-## Background
-
-The One Scotland Gazetteer (OSG) is an address dataset that comprises data maintained locally by each of Scotland’s 32 local authorities.
-
-
-![](Report Images/region-map.png)
-
-Each local authority submits their gazetteer to the Data & Intelligence team at the Improvement Service where the data is validated and shared with partners either directly or via a 3rd party.
-
-The data is also available via the One Scotland Gazetteer portal which currently receives over 4 million address searches a year. 
-
-
-## Some key achievements:
-
-*	More efficient public services through centralised information source
-*	Access to the most comprehensive and up-to-date addressing dataset in Scotland
-*	Robust change feedback mechanism for user confidence
-*	Access to the status of a property and important dates in its lifecycle
-
-## Examples of OSG customers:
-
-*	Police Scotland, Scottish Ambulance Service, Scottish Fire & Rescue
-*	Scottish Government
-*	Scottish Parliament
-*	NHS Scotland
-*	Audit Scotland
-*	Food Standards Scotland
-*	Various Valuation Boards
-
-# Future Direction
-
-Scotland’s 32 councils are split over various geographies and populations. To facilitate a fairer representation of gazetteers locally & more targeted improvements, Gazetteers are split into the following regional groups and will more closely align with the current groupings of the Roads Gazetteer communities.
-  
-The Health Report will be produced and shared on a regular basis to allow local authorities & the Improvement Service to monitor progress and to help highlight trends and priorities for QA related work, this will also allow the Improvement Service to offer assistance where required.
-
-The analysis is based on data submitted to the OSG portal over a 4 week period between Jan & Feb 2022 so any subsequent changes made to the data will not be detailed here. 
-
-Throughout 2022 the Improvement Service will organize regional meetings to supplement the regular community meetings. It is anticipated that the regional groups will foster closer working with neighbouring authorities, the sharing of best practice and opportunities to streamline internal procedures, this will be further reinforced with regular meeting with individual councils. 
-
-# News Roundup
-
-## Gazetteers are Go!
-
-In line with the UK Governments requirement for use of the UPRN & USRN across the Public Sector, the Improvement Service has worked with the Scottish Government towards enshrining the use of Gazetteer identifiers in the Scottish Public sector. This will help ensure that Gazetteers are not viewed simply as “an address list” but crucial to any organisation that wishes to deliver geographic based services by being able to exploit the vast reams of data that underpin each service area. Although many councils have already achieved a high level of success in terms of promoting use of these key identifiers out with Planning & Building Standards, it is expected that this latest announcement will go a long way to ensuring that UPRNs & USRNs become the bedrock in corporate strategies that see the use of Gazetteer data become one of the key drivers in Public Sector data sharing; Risk Management; Public Health Intelligence; Statistical Reporting; Fraud Prevention. Further news will be released in due course and hope that this is seen a further positive step. 
-\nempage 
-
-## Scottish Census
-
-Scotland’s Census 2022 has been live since the end of February and the NRS Geography team are dealing with a variety of address queries. The final snapshot of addresses was taken in February, based on December 2021 data.  Change between this and the March census date was always expected and many of the queries relate to new developments which have only recently become occupied.  The difference in flat numbering between the CAG’s and Royal Mail PAF has also created issues as there is no clear preference by respondents as to which format they use. Once the live operations are complete a full evaluation of the address data will be undertaken and will be passed to local authorities for review. 
-
-## Ongoing Support
-
-The Improvement Service is committed to helping the Gazetteer community via a multifaceted approach to try and best engage with the various local authorities, recently the Improvement Service has:
-
-* Funded software training
-* Provided free introductory training for both the street & address gazetteer community
-* Engaged at national, regional & individual levels, helped resolve localised technical issues & where requested, prioritise workloads
-* Funded and configured daily supply of all gazetteers to OSG: CCF for IDOX, iExchange for Aligned Assets, and recently had a successful test load from WDM for daily supply moving forward.
-*	Provided GDPR, licensing and legislative guidance
-* Re-instated the Idox GMS user group 
-* Liaised with ICT & IT suppliers to help with integrations 
-* Engaged with national bodies (Public Health Scotland, AGI, Scottish Government)
-* Taken a “hands on” approach with suppliers and worked in tandem with them to resolve issues
-* Provided ad-hoc support & advice 
-
-\newpage
-
-# Data Analysis
->>>>>>> 6463819e3382aa1c02a4ba654bad42ce9aaa9f9b
+# Background
 
 The Health Report will be produced and shared on a regular basis to allow local authorities & the Improvement Service to monitor progress and to help highlight trends and priorities for QA related work, this will also allow the Improvement Service to offer assistance where required. 
 
 
 ![](Report Images/region-map.png)
 
-The analysis is based on data submitted to the OSG portal over a 4 week period between Aug- Sept 2022 so any subsequent changes made to the data will not be detailed here. 
+**The analysis is based on data submitted to the OSG portal over a 4 week period between Aug- Sept 2022 so any subsequent changes made to the data will not be detailed here.**
 
-Each local authority submits their gazetteer to the Data & Intelligence team at the Improvement Service where the data is validated and shared with partners either directly or via a 3rd party. 
+Each local authority submits their gazetteer to the Data & Intelligence team at the Improvement Service where the data is validated and shared with partners either directly or via a 3rd party. The data is also available via the One Scotland Gazetteer portal which currently receives over 4 million address searches a year, this in turn also generates a significant number of OSG portal requests whereby users can flag up queries relating to address data.  
 
-The data is also available via the One Scotland Gazetteer portal which currently receives over 4 million address searches a year, this in turn also generates a significant number of OSG portal requests whereby users can flag up queries relating to address data. 
 
-#### Some key Gazetteer benefits: 
+## Some key Gazetteer benefits:
 
-* More efficient public services through centralised information source
-* Access to the most comprehensive and up-to-date addressing dataset in Scotland
-* Robust change feedback mechanism for user confidence
-* Access to the status of a property and important dates in its lifecycle
+*	More efficient public services through centralised information source
+*	Access to the most comprehensive and up-to-date addressing dataset in Scotland
+*	Robust change feedback mechanism for user confidence
+*	Access to the status of a property and important dates in its lifecycle
 
-\newpage 
+# News Roundup
 
-## News Roundup 
+## KHub Relaunch!
+![](Report Images/khub.png)
+The [Knowledge Hub](https://khub.net/group/onescotlandgazetteercustodians/group-forum/-/message_boards/message/365257954?_com_liferay_message_boards_web_portlet_MBPortlet_showBreadcrumb=false) has been refreshed and everyone is encouraged to take the time to familiarise themselves with the new layout. If you are new to the Gazetteer community please have a read through the forum to see what the community has been discussing recently. You may have missed out on conversations relating to [Street Naming & Numbering](https://khub.net/group/onescotlandgazetteercustodians/group-discussion/-/message_boards/message/705520643) issues, [Enforcement action](https://khub.net/group/onescotlandgazetteercustodians/group-discussion/-/message_boards/message/703534729) or the [proposed validation changes](https://khub.net/group/onescotlandgazetteercustodians/group-discussion/-/message_boards/message/519046324) to Streets and Organisation names. 
 
-### KHub Relaunch! 
+## Gazetteer Training 
+![](Report Images/idox.png)
+The Improvement Service is once again offering free training via Idox to all gazetteer custodians. The training will cover both the Address & Streets side of the GMS module and will take two full days. The Improvement Service will also supplement this with a one day “Refresher” course which is aimed at giving those already in the job a bit of background as to the legacy of the gazetteers and help highlight best practice and include discussion on the data conventions to try and help bridge any gaps in knowledge. Please get in touch asap if you have not already done so to attend any of these sessions. We are looking into providing similar sessions for both WDM & Aligned Asset users.  
 
-The [Knowledge Hub](https://khub.net/group/onescotlandgazetteercustodians/group-forum/-/message_boards/message/365257954?_com_liferay_message_boards_web_portlet_MBPortlet_showBreadcrumb=false) has been refreshed and everyone is encouraged to take the time to familiarise themselves with the new layout. If you are new to the Gazetteer community please have a read through the forum to see what the community has been discussing recently. You may have missed out on conversations relating to [Street Naming & Numbering](https://khub.net/group/onescotlandgazetteercustodians/group-discussion/-/message_boards/message/705520643) issues, [Enforcement action](https://khub.net/group/onescotlandgazetteercustodians/group-discussion/-/message_boards/message/703534729) or the [proposed validation changes](https://khub.net/group/onescotlandgazetteercustodians/group-discussion/-/message_boards/message/519046324) to Streets and Organisation names.  
+## Innovation Awards
+![](Report Images/improvement-service.png)
+The Improvement Service is asking you to get your thinking caps on and get in touch to highlight any examples of Gazetteer integrations, all nominations will be publicised with a winner announced at the Gazetteer Community Event on the 1st of December. Regardless of how new or old your integration might be, waste collection or school travel or even using the gazetteer for mail shots or used for delivering services during the pandemic use of the CAG is of obvious benefit and we want to help highlight the great work that you help underpin. Please get in touch via Gazhelp to discuss.
 
-### Gazetteer Training 
+## Improvement Work
 
-The Improvement Service is once again offering free training via Idox to all gazetteer custodians. The training will cover both the Address & Streets side of the GMS module and will take two full days. The Improvement Service will also supplement this with a one day “Refresher” course which is aimed at giving those already in the job a bit of background as to the legacy of the gazetteers and help highlight best practice and include discussion on the data conventions to try and help bridge any gaps in knowledge. Please get in touch asap if you have not already done so to request any of the these sessions. 
-
-### Innovation Awards 
-
-The Improvement Service is asking you to get your thinking caps on and get in touch to highlight any examples of Gazetteer integrations, all nominations will be publicised with a winner announced at the Gazetteer Community Event on the 1st of December. Regardless of how new or old your integration might be, waste collection or school travel or even using the gazetteer for mail shots or used for delivering services during the pandemic use of the CAG is of obvious benefit and we want to help highlight the great work that you help underpin. Please get in touch via Gazhelp to discuss 
-
-### Improvement Work 
-
-A big thanks to all of you for the sterling work being undertaken to resolve OSG portal queries, PAF matching and the recent run of data uplifts to Levels, BLPU State & Classifications. There has been a tremendous effort by you all which has helped make the gazetteers a closer reflection to the real world and has seen data quality levels rise to a new high. As per discussions taking place at the Summer Catch up sessions (which have now run into autumn) councils are being asked to give thought to what current CAG integrations could be refreshed with API connections to replace the old file import routines as well as looking for new integration possibilities for legacy or newly purchased systems.
+A big thanks to all of you for the sterling work being undertaken to resolve OSG portal queries, PAF matching and the recent run of data uplifts to Levels, BLPU State & Classifications. There has been a tremendous effort by you all which has helped make the gazetteers a closer reflection of the real world and has seen data quality levels rise to a new high. As per discussions taking place at the Summer Catch up sessions (which have now run into autumn) councils are being asked to give thought to what current CAG integrations could be refreshed with API connections to replace the old file import routines as well as looking for new integration possibilities for legacy or newly purchased systems. 
 
 \newpage
 
-## Data Analysis
+# Data Analysis
 
-### Type A Data Uploads
+## Type A Data Uploads
 Data currency is one of the key components of the Gazetteer due in part to the dependency on the address data by critical consumers such as Scotland’s three emergency services along with eDevelopment & the Energy Savings Trust. With the Ordnance Survey launching more mapping products that derive data from the OSG, multiple loads of local CAG data over the course of a week to the OSG portal have become a minimum requirement. 
 
 **Benefit** – ensures that additions & corrections to gazetteer data are more quickly shared. 
@@ -188,7 +118,7 @@ The above table clearly shows that multiple uploads over a short period are now 
 
 \newpage
 
-### Classifications  
+## Classifications  
 
 **Benefit** – The recent response to the Covid outbreak has highlighted a critical issue with Gazetteers not able to provide a wholly uniform view of the location of critical sites due to incomplete classifications and will be high on the agenda for users such as NHS, Scottish Government and colleagues in Resilience Planning. The coming Census also places a requirement to ensure that property types have a more granular level of detail, with the recent announcement of the postponement of the census to 2021 this gives councils an excellent opportunity to ensure that their data is ready in time.
 
@@ -231,7 +161,7 @@ class_council_group_barplot(params$classifications, params$council)
 
 \newpage  
 
-### Breakdown by Error type  
+## Breakdown by Error type  
 
 **Benefit** – this will allow councils to focus and plan targeted improvements.
 
@@ -252,7 +182,7 @@ errors_region_summary_barplot(params$errors)
 ``` 
 \newpage  
 
-### Postal Address File (PAF) Matching  
+## Postal Address File (PAF) Matching  
 
 **Benefit** –Having an accurate match to Royal Mails PAF increases the confidence in the address data and prevents issues with undeliverable mail.
 
@@ -268,12 +198,14 @@ paf_council_group_barplot(params$paf, params$council)
 paf_region_summary_barplot(params$paf)
 ```
 
-## OSG Portal Queries
-Non local authority users of gazetteer data include the Scottish Emergency Services, National Records of Scotland, Scottish Govt and members of the public. The OSG website provides users an online facility to quickly and easy log a query relating to possible address errors, positional inaccuracy & incorrect classifications etc. This is also one of the best ways to get feedback on gazetteer quality via 3rd party users but it’s equally important to ensure that these queries sent from the OSG Helpdesk are answered promptly to ensure trust in gazetteer data is maintained.
+\newpage 
+
+# OSG Portal Queries
+Non local authority users of gazetteer data include the Scottish Emergency Services, National Records of Scotland, Scottish Government and members of the public. The OSG website provides users an online facility to quickly and easy log a query relating to possible address errors, positional inaccuracy & incorrect classifications etc. This is also one of the best ways to get feedback on gazetteer quality via 3rd party users but it’s equally important to ensure that these queries sent from the OSG Helpdesk are answered promptly to ensure trust in gazetteer data is maintained.
 
 All outstanding OSG portal requests are being collated & reported on including those calls logged but have never closed off.
 
-### Recommended Remedial Actions 
+## Recommended Remedial Actions 
 Based on the data within the report the following actions are recommended:
 
 

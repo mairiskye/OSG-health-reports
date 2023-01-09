@@ -26,8 +26,8 @@ source("Make Reports/Plotting Functions/paf-match/paf_region_summary_barplot.R")
 source("Make Reports/Plotting Functions/error/errors_council_group_barplot.R")
 source("Make Reports/Plotting Functions/error/errors_region_summary_barplot.R")
 
-for (council in councils) {
-
+#for (council in councils) {
+council <- "City of Edinburgh"
   rmarkdown::render(
     "Make Reports/health_report_template.Rmd", 
     params = list(
@@ -38,6 +38,6 @@ for (council in councils) {
       errors = errors_data,
       date = format(max(as.Date(session)), "%B %Y")
       ),
-    output_file = paste0("Aug Reports/",council, "-osg-health-check-report.docx")
+    output_file = paste0("Final Reports/",council, "-sample-osg-health-check-report.docx")
     )
-  }
+ # }

@@ -11,6 +11,7 @@ errors_raw <- readxl::read_xlsx("Clean Raw Data/Raw Data/Edited Warning Records 
 #clean data -----------------------------
 code_lookup <- read.csv("Clean Raw Data/CodeLookUp.csv") %>%
   select(-AltName)
+
 #for errors data look for row index which contain strings in column one 
 errors_no_blank_rows <- errors_raw[rowSums(is.na(errors_raw)) != ncol(errors_raw), ]
 #find and return a vecor of strings found in Sr.No. column

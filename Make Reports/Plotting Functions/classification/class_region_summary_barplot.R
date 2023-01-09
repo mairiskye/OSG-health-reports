@@ -1,6 +1,6 @@
 
 class_region_summary_barplot <- function(data) {
-  
+  data <- class_data
   recent_sessions <- unique(data$Date) %>% sort(decreasing = TRUE)
   
   region_summary <- data %>%
@@ -22,9 +22,16 @@ class_region_summary_barplot <- function(data) {
     filter(Date == max(Date)) %>% 
     arrange(desc(RegionAvg))
   
+  date_name_order <- region_summary %>%
+    select(Date, DateName) %>%
+    distinct() %>%
+    arrange(Date, decreasing = TRUE) %>%
+    pull(DateName)
+  
   #order whole time-series data by above factor levels
   region_data_ordered <- region_summary %>%
     mutate(Region = factor(Region, levels = select_order$Region, ordered = TRUE)) %>%
+    mutate(DateName = factor(DateName, levels = date_name_order, ordered = TRUE)) %>%
     arrange(Region)
   
   latest_date <- region_data_ordered %>%
