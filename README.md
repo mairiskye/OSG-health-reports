@@ -105,6 +105,7 @@ Update the [Gazetteer Statistics sharepoint](https://impservihub.sharepoint.com/
 * Go to the sharepoint and create a new Health Report XX folder in *Documents/Automated Reports/*, and create the following folder structure:
 
 ![](https://raw.githubusercontent.com/mairiskye/OSG-health-reports/main/Images/OSG%20health%20report%20series%20folder%20structure.png)
+
 * Upload a copy of the raw quarterly datasets provided by the OSG Custodian to *Health Report XX/Data/Raw Data (Input)/*. This is the same data you would have added to *Cleaning Raw Data/Raw Data/* in the R project directory in step 3.
 
 * From the R project directory, copy the four new clean data files from *Make Reports/Clean Data/* to *Health Report XX/Data/Clean Data (Output)/*.
@@ -122,3 +123,4 @@ Current visualisation:
 Alternative:
 
 ![](https://raw.githubusercontent.com/mairiskye/OSG-health-reports/main/Images/line%20plot.png)
+
