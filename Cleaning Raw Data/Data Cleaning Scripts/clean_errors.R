@@ -2,14 +2,17 @@ library(magrittr)
 library(dplyr)
 library(tidyr)
 
+#READ IN DATA ----------------
+errors_raw <- readxl::read_xlsx("Cleaning Raw Data/Raw Data/Edited Warning Records Aug 2022.xlsx")
+
+#------------------------------
+
 #extracts date for this reporting session from config.yml file
 session <- config::get("reporting_month")
 
-#read in raw data file
-errors_raw <- readxl::read_xlsx("Clean Raw Data/Raw Data/Edited Warning Records Aug 2022.xlsx")
 
 #clean data -----------------------------
-code_lookup <- read.csv("Clean Raw Data/CodeLookUp.csv") %>%
+code_lookup <- read.csv("Cleaning Raw Data/CodeLookUp.csv") %>%
   select(-AltName)
 
 #for errors data look for row index which contain strings in column one 

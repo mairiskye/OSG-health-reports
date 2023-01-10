@@ -5,14 +5,19 @@ library(stringr)
 library(tidyr)
 library(magrittr)
 
+#READ IN DATA----------
+paf_raw <- readxl::read_xls("Cleaning Raw Data/Raw Data/PAF_STATS_JUN.xls") 
+#----------------------
+
 session <- config::get("reporting_month")
 
-paf_raw <- readxl::read_xls("Clean Raw Data/Raw Data/PAF_STATS_JUN.xls") %>%
+paf_raw <- paf_raw %>%
   select(AUTH_CODE, LINK_RATE, CRITERION_LEVEL) %>%
   rename("LA" = AUTH_CODE)
+
 paf_raw$LA <- as.character(paf_raw$LA)
 
-code_lookup <- read.csv("Clean Raw Data/CodeLookUp.csv") %>%
+code_lookup <- read.csv("Cleaning Raw Data/CodeLookUp.csv") %>%
   select(-AltName)
 
 clean_paf <- left_join(paf_raw, code_lookup) %>%
