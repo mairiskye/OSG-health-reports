@@ -123,4 +123,3 @@ Current visualisation:
 Alternative:
 
 ![](https://raw.githubusercontent.com/mairiskye/OSG-health-reports/main/Images/line%20plot.png)
-
